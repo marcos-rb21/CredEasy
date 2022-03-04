@@ -1,0 +1,67 @@
+header{
+    height: 80px;
+    background-color: #777777;
+    padding: 0 50px;
+    
+}
+#logo{
+    display: inline;
+    position: absolute;
+    top: 10px;
+    left: 10%;
+    font-size: 50px;
+    color: #63c731;
+}
+header a{
+    position: absolute;
+    top: 25px;
+    right: 10%;
+    border: #63c731 solid 2px;
+    padding: 7px 15px;
+    text-decoration: none;
+    border-radius: 8px;
+    color: #ffffff;
+}
+header a:hover{
+    text-decoration: underline;
+    border: none;
+    color: #63c731;
+    font-size: 20px;
+}
+.cadastro{
+    text-align: center;
+    padding-right: 10px;
+} 
+#cadastro{
+    height: 500px;
+    width: 200px;
+    background-color: #63c731;
+    border-radius: 10px;
+    position: absolute;
+    right: 10%;
+}
+#cadastre-se{
+   
+    font-size: 26px;
+    padding-top: 20px;
+    height: 50px;
+}
+#gratis{
+    font-size: 18px;
+    text-align: left;
+    margin-left: 15px;
+}
+#cadastro li{
+    border: 1px solid #000000;
+    width: 180px;
+    height: 25px;
+    margin: 5px auto;
+    border-radius: 8px;
+}
+button{
+    margin-top: 70px;
+    height: 30px;
+    width: 80%;
+    border-radius: 8px;
+    background-color: #63c731;
+}
