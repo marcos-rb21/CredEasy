@@ -24,7 +24,7 @@ header a{
 }
 header a:hover{
     text-decoration: underline;
-    border: none;
+    
     color: #63c731;
     font-size: 20px;
 }
@@ -35,31 +35,38 @@ header a:hover{
 #cadastro{
     height: 500px;
     width: 200px;
-    background-color: #63c731;
+    background-color: #ffffff;
     border-radius: 10px;
     position: absolute;
     right: 10%;
+    border: 1px solid #63c731;
+    margin-top: 10px;
 }
 #cadastre-se{
-   
+    color: #ffffff;
     font-size: 26px;
     padding-top: 20px;
     height: 50px;
+    background-color: #63c731;
+    border-radius: 10px;
 }
 #gratis{
     font-size: 18px;
     text-align: left;
-    margin-left: 15px;
+    padding: 10px 0px 10px 15px ;
+    background-color: #ffffff;
+    margin-top: -8px;
+    color: #63c731;
 }
 #cadastro li{
-    border: 1px solid #000000;
+    border: 1px solid #63c731;
     width: 180px;
     height: 25px;
     margin: 5px auto;
     border-radius: 8px;
 }
 button{
-    margin-top: 70px;
+    margin-top: 65px;
     height: 30px;
     width: 80%;
     border-radius: 8px;
