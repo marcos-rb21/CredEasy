@@ -1,0 +1,47 @@
+header{
+    height: 60px;
+    /*background-color: #cec8c8;*/
+    padding: 0 50px;
+}
+header img{
+    height: 50px;
+    margin-top: 5px;
+}
+#credeasy{
+    display: inline;
+    position: relative;
+    top: -8px;
+    left: 5px;
+    font-size: 55px;
+    color: #007bff;
+}
+header h2{
+    display: inline;
+    color: #007bff;
+}
+header a{
+    position: absolute;
+    top: 15px;
+    right: 10%;
+    border: #007bff solid 1px;
+    padding: 7px 15px;
+    text-decoration: none;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: #007bff;
+}
+header a:hover{
+    text-decoration: underline;
+}
+.continer{
+    /*background-image: url("../icons/tim.png");*/
+    height: calc(100vh - 60px);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center center;
+}
+.img{
+    height: 100%;
+    width: 50%;
+    background-color: aquamarine;
+}
